@@ -1,10 +1,151 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Coronavirus.py</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js'></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+    /* Start Header */
+    header .navbar-brand {
+      padding-left: 8rem;
+      padding-top: 1rem;
+      font-size: 4vmin;
+    }
+
+    header a {
+      color: white;
+    }
+
+    header {
+      background-color: #667fe1;
+      font-family: 'Kumbh Sans', sans-serif;
+      color: white;
+    }
+
+    header .about {
+      padding-right: 8rem;
+      padding-top: 0.8rem;
+    }
+
+    header a:hover {
+      color: white;
+    }
+
+    /* End Header */
+
+    /* Start Section 1 */
+    .section-1 {
+      font-family: 'Kumbh Sans', sans-serif;
+    }
+
+    .section-1 a{
+      color: DarkBlue;
+    }
+
+    /* End Section 1 */
+
+    @media only screen and (max-width: 768px) {
+      header .navbar-brand {
+        padding-left: 1rem;
+      }
+
+      header .about {
+        padding-right: 1rem;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <h3 class="navbar-brand">Coronavirus.py</h3>
+        <div class="mr-auto"></div>
+        <h6 class="about"><a href="#">About us</a></h6>
+      </nav>
+    </div>
+  </header>
+  <section class="section-1">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h3 class="text-center">How it all started</h3>
+          <div class="p-3 text-justify">
+            <p>The first cases of COVID-19 were first reported by officials of Wuhan, China, in December 2019. The disease appears to have originated from a Wuhan seafood market where wild animals are traded illegally. </p>
+            <p>What started as an epidemic, mainly restrited to China, has now become a global pandemic. The disease has been detected in more than 200 countries. We hope this website helps to understand the severity of this disease and the responses
+              of different countries towards COVID-19.</p>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h3 class="pl-3">What can you find in this page?</h3>
+          <ul>
+       <li>
+         <h6>
+           <a href="#graph1">
+             Countries that have been infected the most
+           </a>
+         </h6>
+       </li>
+       <li>
+         <h6>
+           <a href="#graph2">
+             Countries with the highest number of deceased
+           </a>
+         </h6>
+       </li>
+       <li>
+         <h6>
+           <a href="#graph3">
+             Best Global Responses to COVID-19
+           </a>
+         </h6>
+       </li>
+       <li>
+         <h6>
+           <a href="#graph4">
+     Countries with most cases per million
+     </a>
+         </h6>
+       </li>
+       <li>
+         <h6>
+           <a href="#graph5">
+           Percentage of population that got COVID-19
+           </a>
+         </h6>
+       </li>
+       <li>
+         <h6>
+           <a href="#graph6">
+           Countries with the highest Case Fatality Rate
+           </a>
+         </h6>
+       </li>
+     </ul>
+     <p class="pl-3 pt-3">The following data is up to 2020-09-22</p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
 </html>
